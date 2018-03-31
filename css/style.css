@@ -1,0 +1,76 @@
+title {
+    display: none;
+}
+
+* {
+    font-family: monospace, sans-serif;
+    text-align: center;
+    display: block;
+    
+
+}
+
+button {
+    border: none;
+    margin-top: 1vw;
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button#btnR {
+    background-color: blue;
+    color: #fff;
+}
+
+output {
+    background-color: #377f5a;
+    padding: 20px;
+    color: white;
+    border-color: yellow;
+    border-radius: 15px;
+    font-size: 2em;
+}
+
+
+#info {
+    display: inline-block;
+    width: auto;
+    border: 3px solid #377f5a;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    border-radius: 15px;
+}
+
+#inter {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    
+      
+}
+
+h1 h2 {
+    text-align: left;
+}
+
+h3 {
+    text-align: left;
+}
+
+
+ol {
+    font-size: 1em;
+    list-style-type: disc;
+}
+
+li {
+    padding: 10px;
+    text-align: left;
+}
+

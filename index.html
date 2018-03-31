@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <section>
+
+        <h2>Generator liczb 6 z 49</h2><br />
+        <h2>Random number generator 6 - 49</h2><br />
+
+        <div id="info">
+
+            <h3>Info:</h3>
+            <ol>
+                <li>Random 6 numbers from 1 to 49</li>
+                <li>Click red button to start, then:</li>
+                <ul>
+                    <li>- "mouseclick" or press "Enter" for one cycle</li>
+                    <li>- press and hold "Spacebar" - generate a sequence of numbers</li>
+                </ul>
+                <li>Click blue buton to reset for new cycle</li> 
+            </ol>
+
+        </div>
+
+        <button class="btn" onclick="one()" id="btn1">Click to start generate numbers "6 / 49"</button>
+        <button id="btnR" onclick="myReset()">Reset for new cycle</button>
+        <div id="inter">Your numbers:</div>
+
+        <output id="result">-- -- -- -- -- --</output>
+
+    </section>
+      
+    <script src="js/main.js"></script>
+</body>
+</html>
